@@ -1,0 +1,23 @@
+{
+  "name": "room-rent-allocation",
+  "version": "1.0.0",
+  "description": "公平分配房间和房租的Electron应用",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder"
+  },
+  "keywords": ["electron", "room", "rent", "allocation", "fair"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1"
+  }
+}
